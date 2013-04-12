@@ -23,9 +23,6 @@ VDMLexerのインストールは以下のようにします。
   
      * `easy_install pygments_plugin_vdm_lexer-0.1-py2.6.egg`
 
-.. note::
-   これらのインストール方法については、 [ここ](http://sphinx-users.jp/gettingstarted/index.html) を参照してください。
-
 
 VDMLexerの使い方（Sphinxで使う場合）
 -----------------------------------------
@@ -38,7 +35,7 @@ literalincludeを使わない場合は、以下のようにします。
 
     .. code-block:: vdm
     
-    class Hoge
-    （中略）
-    end Hoge
+      class Hoge
+      （中略）
+      end Hoge
 
