@@ -21,8 +21,14 @@ VDMLexerのインストールは以下のようにします。
     
   * コマンドラインで、以下のコマンドを入力
   
-     * `easy_install pygments_plugin_vdm_lexer-0.1-py2.6.egg`
+     * `easy_install pygments_plugin_vdm_lexer-1.0-py2.7.egg`
 
+VDMLexerのビルド
+-----------------------------------------
+    % cd LexerDev
+    % python setup.py bdist_egg
+
+これで、 *pygments_plugin_vdm_lexer-1.0-py2.7.egg* がdistディレクトリ以下にできます。
 
 VDMLexerの使い方（Sphinxで使う場合）
 -----------------------------------------
