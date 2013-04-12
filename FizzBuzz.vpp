@@ -1,0 +1,33 @@
+-- comment
+class FizzBuzz
+
+  values
+    aaa = 'a';
+    
+/*
+
+  Multiline comment
+
+*/
+
+  operations
+    public FizzBuzzFunc : () ==> ()
+    FizzBuzzFunc() == (
+      dcl a : nat := 1;
+      
+      for i = 0 to 100 by 1 do
+        if (i mod 3 = 0) and (i mod 5 = 0) then
+          def - = new IO().echo([i] ^ "FizzBuzz!") in skip
+        elseif (i mod 3 = 0) then
+          def - = new IO().echo([i] ^ "Fizz") in skip
+        elseif (i mod 5 = 0) then
+          def - = new IO().echo([i] ^ "Buzz") in skip
+        else
+          skip;
+    );
+    
+    public akjdastalkdjask : () ==> ()
+    akjdastalkdjask() == is not yet specified;
+
+end FizzBuzz
+
