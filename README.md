@@ -17,7 +17,7 @@ VDMLexerのインストールは以下のようにします。
   * Pythonのパッケージ管理ツールであるeasy_installがインストールされていること
 
 * インストール
-  * [pygments_plugin_vdm_lexer-1.0-py2.7.egg](https://github.com/mas0061/VDMLexer/raw/master/pygments_plugin_vdm_lexer-1.0-py2.7.egg) をダウンロード
+  * [pygments_plugin_vdm_lexer-1.0-py2.7.egg](https://github.com/mas0061/VDMLexer/releases/download/v1.0.0/pygments_plugin_vdm_lexer-1.0-py2.7.egg) をダウンロード
   * コマンドラインで、以下のコマンドを入力
   
      * `easy_install pygments_plugin_vdm_lexer-1.0-py2.7.egg`
