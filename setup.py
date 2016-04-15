@@ -3,6 +3,12 @@ from setuptools import setup
 setup(
         name = "pygments_plugin_vdm_lexer",
         version = "1.0",
+        author = "mas0061",
+        author_email = "github@mas0061.net",
+        description = "Pygments lexer for VDM",
+        license = "MIT",
+        keywords = "pygments lexer vdm",
+        url = "https://github.com/mas0061/VDMLexer",
         package_dir = {"pygments_plugin": "", 
                        "pygments_plugin.lexers": "lexers",
                        "pygments_plugin.styles": "styles"},
